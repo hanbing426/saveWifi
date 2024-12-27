@@ -5,7 +5,7 @@
     <view class="text-area">
       <text class="title">{{ title }}</text>
     </view>
-    <view class="gc-box">当前已连接：{{ connectedWifi.SSID }} </view>
+    <view class="gc-box">已连接wifi：{{ connectedWifi.SSID }} </view>
     <view class="">
       <u-modal :show="show" :title="promptTitle" @confirm="confirm" :showCancelButton="true" @cancel="isShowFalse">
         <view class="slot-content">
